@@ -1,0 +1,28 @@
+---
+import '../styles/global.css';
+import Navbar from '../components/Navbar.astro';
+import Footer from '../components/Footer.astro';
+
+interface Props {
+	title: string;
+}
+
+const { title } = Astro.props;
+---
+
+<!doctype html>
+<html lang="th" class="scroll-smooth">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<title>{title}</title>
+	</head>
+	<body class="bg-earth-50 text-earth-800 font-sans antialiased selection:bg-earth-200 selection:text-earth-800">
+		<Navbar />
+		<main class="max-w-5xl mx-auto px-6 pt-32 pb-20 relative">
+			<slot />
+		</main>
+		<Footer />
+	</body>
+</html>
