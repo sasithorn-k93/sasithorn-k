@@ -5,7 +5,7 @@ export const portfolioData = {
         lastName: "Design",
         role: "Digital Designer & UI Developer",
         bio: "สวัสดีครับ ผมเป็นนักออกแบบและพัฒนาเว็บไซต์ที่หลงใหลในความเรียบง่าย (Minimalism) ผมเชื่อว่าการออกแบบที่ดีคือการตัดทอนสิ่งที่ไม่จำเป็นออกไป และเหลือไว้เพียงแก่นแท้ที่สื่อสารได้อย่างชัดเจนและใช้งานง่าย",
-        profileImage: "",
+        profileImage: "https://cdn.jsdelivr.net/gh/sasithorn-k93/sasithorn-k@main/public/images/IMG_2496.JPG",
         email: "hello@sompongdesign.com",
         phone: "+66 81 234 5678",
         location: "Bangkok, Thailand"
